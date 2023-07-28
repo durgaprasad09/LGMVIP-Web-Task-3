@@ -1,0 +1,43 @@
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: wheat;
+      color: #171617;
+      border: 1px solid #0c0c0c;
+      border-radius: 5px;
+    }
+  
+    .form-group {
+      margin-bottom: 20px;
+    }
+  
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="phone"],
+    input[type="course"],
+    input[type="graduationYear"] 
+    {
+      width : 100%;
+      padding : 5px;
+      font-size: medium;
+      border : 1px solid #0f0f0f;
+      font-family: 'Poppins', sans-serif;
+      border-radius : 4px;
+    }
+  
+    button {
+      background-color: green;
+      color: black;
+      padding: 10px 30px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  
